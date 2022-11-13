@@ -6,6 +6,7 @@ const { DataTypes } = Sequelize;
 const TempatWisataManado = db.define('TempatWisataManado', {
     nama_tempatwisatamanado: DataTypes.STRING,
     alamat_tempatwisatamanado: DataTypes.STRING,
+    jarak_tempatwisatamanado: DataTypes.VARCHAR,
     jambuka_tempatwisata: DataTypes.VARCHAR,
     jamtutup_tempatwisata: DataTypes.VARCHAR,
     tiket_masuktempatwisata: DataTypes.VARCHAR,
