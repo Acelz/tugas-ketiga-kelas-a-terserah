@@ -16,3 +16,9 @@ Content-Type: application/json
 
 ###
 DELETE http://localhost:5000/product/1
+
+
+PATCH http://localhost:5000/product/1
+Content-Type: application/json
+
+
