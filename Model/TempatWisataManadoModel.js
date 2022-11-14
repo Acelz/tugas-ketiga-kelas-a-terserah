@@ -1,7 +1,11 @@
-import { Sequelize } from 'sequelize';
+import {
+    Sequelize
+} from 'sequelize';
 import db from '../Config/Database.js';
 
-const { DataTypes } = Sequelize;
+const {
+    DataTypes
+} = Sequelize;
 
 const TempatWisataManado = db.define('TempatWisataManado', {
     nama_tempatwisatamanado: DataTypes.STRING,
@@ -16,6 +20,6 @@ const TempatWisataManado = db.define('TempatWisataManado', {
 
 export default TempatWisataManado;
 
-(async()=> {
-        await db.sync();
+(async () => {
+    await db.sync();
 })();
