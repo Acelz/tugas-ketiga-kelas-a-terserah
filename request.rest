@@ -1,0 +1,18 @@
+GET http://localhost:5000/
+
+
+###
+POST http://localhost:5000/product
+Content-Type: application/json
+
+{
+    "nama_tempatwisatamanado": "Malalayang Beach Walk",
+    "alamat_tempatwisatamanado": "Malalayang",
+    "jarak_tempatwisatamanado": "5KM",
+    "jambuka_tempatwisata": "Jam 8 Pagi",
+    "jamtutup_tempatwisata": "Jam 12 Malam",
+    "tiket_masuktempatwisata": "Rp15000"
+}
+
+###
+DELETE http://localhost:5000/product/1

@@ -10,10 +10,10 @@ const {
 const TempatWisataManado = db.define('TempatWisataManado', {
     nama_tempatwisatamanado: DataTypes.STRING,
     alamat_tempatwisatamanado: DataTypes.STRING,
-    jarak_tempatwisatamanado: DataTypes.VARCHAR,
-    jambuka_tempatwisata: DataTypes.VARCHAR,
-    jamtutup_tempatwisata: DataTypes.VARCHAR,
-    tiket_masuktempatwisata: DataTypes.VARCHAR,
+    jarak_tempatwisatamanado: DataTypes.STRING,
+    jambuka_tempatwisata: DataTypes.STRING,
+    jamtutup_tempatwisata: DataTypes.STRING,
+    tiket_masuktempatwisata: DataTypes.STRING,
 }, {
     freezeTableName: true
 });
