@@ -13,15 +13,56 @@ Content-Type: application/json
 #     "jamtutup_tempatwisata": "Jam 12 Malam",
 #     "tiket_masuktempatwisata": "Rp15000"
 # }
-{
-    "nama_tempatwisatamanado": "TES1",
-    "alamat_tempatwisatamanado": "1",
-    "jarak_tempatwisatamanado": "1",
-    "jambuka_tempatwisata": "1",
-    "jamtutup_tempatwisata": "1",
-    "tiket_masuktempatwisata": "1"
-}
+# {
+#     "nama_tempatwisatamanado": "TES1",
+#     "alamat_tempatwisatamanado": "1",
+#     "jarak_tempatwisatamanado": "1",
+#     "jambuka_tempatwisata": "1",
+#     "jamtutup_tempatwisata": "1",
+#     "tiket_masuktempatwisata": "1"
 
+    
+# }
+# {
+#     "nama_tempatwisatamanado": "Kawasan Megamas",
+#     "alamat_tempatwisatamanado": "jalan piere tendean",
+#     "jarak_tempatwisatamanado": "0.4KM",
+#     "jambuka_tempatwisata": "jam 8 pagi",
+#     "jamtutup_tempatwisata": "jam 11 malam",
+#     "tiket_masuktempatwisata": "Rp3000"
+# }
+# {
+#         "nama_tempatwisatamanado": "Taman Kesatuan Bangsa",
+#     "alamat_tempatwisatamanado": "Jalan Dotulong Lasut",
+#     "jarak_tempatwisatamanado": "0.1KM",
+#     "jambuka_tempatwisata": "jam 8 pagi",
+#     "jamtutup_tempatwisata": "jam 12 malam",
+#     "tiket_masuktempatwisata": "Gratis"
+# }
+# {
+#      "nama_tempatwisatamanado": "Malalayang Beach Walk",
+#     "alamat_tempatwisatamanado": "Jalan Raya Sulawesi",
+#     "jarak_tempatwisatamanado": "7KM",
+#     "jambuka_tempatwisata": "jam 8 pagi",
+#     "jamtutup_tempatwisata": "jam 11 malam",
+#     "tiket_masuktempatwisata": "Rp10000"
+# }
+# {
+#      "nama_tempatwisatamanado": "Wisata Rumah Alam",
+#     "alamat_tempatwisatamanado": "Jalan Ring Road",
+#     "jarak_tempatwisatamanado": "11KM",
+#     "jambuka_tempatwisata": "jam 8 pagi",
+#     "jamtutup_tempatwisata": "jam 11 malam",
+#     "tiket_masuktempatwisata": "Rp35000"
+# }
+{
+     "nama_tempatwisatamanado": "Makatete Hills",
+    "alamat_tempatwisatamanado": "Jalan Warembungan",
+    "jarak_tempatwisatamanado": "14KM",
+    "jambuka_tempatwisata": "jam 9 pagi",
+    "jamtutup_tempatwisata": "jam 10 malam",
+    "tiket_masuktempatwisata": "Rp30000"
+}
 ###
 DELETE http://localhost:5000/product/1
 
