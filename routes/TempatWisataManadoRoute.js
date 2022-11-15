@@ -10,10 +10,10 @@ import {
 const router = express.Router();
 
 // http://localhost:5000/TempatWisataManado
-router.get('/products', getTempatWisataManado);
-router.get('/product/:id', getTempatWisataManadoById);
-router.post('/product', createTempatWisataManado);
-router.patch('/product/:id', updateTempatWisataManado);
-router.delete('/product/:id', deleteTempatWisataManado);
+router.get('/tempatwisata', getTempatWisataManado);
+router.get('/tempatwisata/:id', getTempatWisataManadoById);
+router.post('/tempatwisata', createTempatWisataManado);
+router.patch('/tempatwisata/:id', updateTempatWisataManado);
+router.delete('/tempatwisata/:id', deleteTempatWisataManado);
 
 export default router;
