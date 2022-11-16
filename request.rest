@@ -88,14 +88,22 @@ Content-Type: application/json
 #      "jamtutup_tempatwisata": "-",
 #      "tiket_masuktempatwisata": "Gratis"
 # }
+# {
+#     "nama_tempatwisatamanado": "Kathedral Hati Tersuci Maria",
+#      "alamat_tempatwisatamanado": "Jalan Samratulangi wenang utara",
+#       "jarak_tempatwisatamanado": "4.7KM",
+#       "jambuka_tempatwisata": "24 Jam",
+#       "jamtutup_tempatwisata": "-",
+#       "tiket_masuktempatwisata": "-"
+# }
+
 {
-    "nama_tempatwisatamanado": "Kathedral Hati Tersuci Maria",
+    "nama_tempatwisatamanado": "Wakeke",
      "alamat_tempatwisatamanado": "Jalan Samratulangi wenang utara",
       "jarak_tempatwisatamanado": "4.7KM",
-      "jambuka_tempatwisata": "24 Jam",
-      "jamtutup_tempatwisata": "-",
+      "jambuka_tempatwisata": "jam 8 pagi",
+      "jamtutup_tempatwisata": "jam 7 malam",
       "tiket_masuktempatwisata": "-"
-
 }
 ###
 DELETE http://localhost:5000/tempatwisata/10
