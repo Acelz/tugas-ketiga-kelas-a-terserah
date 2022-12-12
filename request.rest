@@ -1,4 +1,4 @@
-GET http://localhost:5000/products
+GET http://localhost:5000/tempatwisata
 
 
 ###
@@ -55,22 +55,37 @@ Content-Type: application/json
 #     "jamtutup_tempatwisata": "jam 11 malam",
 #     "tiket_masuktempatwisata": "Rp35000"
 # }
-{
-     "nama_tempatwisatamanado": "Makatete Hills",
-    "alamat_tempatwisatamanado": "Jalan Warembungan",
-    "jarak_tempatwisatamanado": "14KM",
-    "jambuka_tempatwisata": "jam 9 pagi",
-    "jamtutup_tempatwisata": "jam 10 malam",
-    "tiket_masuktempatwisata": "Rp30000"
-}
+# {
+#      "nama_tempatwisatamanado": "Makatete Hills",
+#     "alamat_tempatwisatamanado": "Jalan Warembungan",
+#     "jarak_tempatwisatamanado": "14KM",
+#     "jambuka_tempatwisata": "jam 9 pagi",
+#     "jamtutup_tempatwisata": "jam 10 malam",
+#     "tiket_masuktempatwisata": "Rp30000",
+    
+# }
 ###
-DELETE http://localhost:5000/product/1
+DELETE http://localhost:5000/tempatwisata/1
 
 ###
-DELETE http://localhost:5000/product/2
+DELETE http://localhost:5000/tempatwisata/2
 
-
-PATCH http://localhost:5000/product/1
+###
+PATCH http://localhost:5000/tempatwisata/7
 Content-Type: application/json
+
+{
+    "id":7,
+     "nama_tempatwisatamanado": "Makam imam bonjol",
+    "alamat_tempatwisatamanado": "Jalan pineleng",
+    "jarak_tempatwisatamanado": "10KM",
+    "tiket_masuktempatwisata": "Rp10000"
+    
+}
+
+
+
+###
+GET http://localhost:5000/product/1
 
 
