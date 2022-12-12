@@ -61,17 +61,63 @@ Content-Type: application/json
 #     "jarak_tempatwisatamanado": "14KM",
 #     "jambuka_tempatwisata": "jam 9 pagi",
 #     "jamtutup_tempatwisata": "jam 10 malam",
-#     "tiket_masuktempatwisata": "Rp30000",
     
 # }
 ###
 DELETE http://localhost:5000/tempatwisata/1
+=======
+#     "tiket_masuktempatwisata": "Rp30000"
+# }
+# {
+#     "nama_tempatwisatamanado": "Malalayang Beach Walk",
+#     "alamat_tempatwisatamanado": "Malalayang",
+#      "jarak_tempatwisatamanado": "5KM",
+#      "jambuka_tempatwisata": "Jam 8 Pagi",
+#      "jamtutup_tempatwisata": "Jam 12 Malam",
+#      "tiket_masuktempatwisata": "Rp15000"
+# }
+
+# {
+#     "nama_tempatwisatamanado": "Soekarno Bridge",
+#     "alamat_tempatwisatamanado": "Jl. Boulevard II, Kota Manado, Sulawesi Utara",
+#      "jarak_tempatwisatamanado": "3.8KM",
+#      "jambuka_tempatwisata": "24 Jam",
+#      "jamtutup_tempatwisata": "-",
+#      "tiket_masuktempatwisata": "Gratis"
+# }
+# {
+#     "nama_tempatwisatamanado": "Yesus Memberkati Statue",
+#     "alamat_tempatwisatamanado": "CRQX+53R, Winangun Satu, Malalayang, Manado City, North Sulawesi",
+#      "jarak_tempatwisatamanado": "8.7KM",
+#      "jambuka_tempatwisata": "24 Jam",
+#      "jamtutup_tempatwisata": "-",
+#      "tiket_masuktempatwisata": "Gratis"
+# }
+# {
+#     "nama_tempatwisatamanado": "Kathedral Hati Tersuci Maria",
+#      "alamat_tempatwisatamanado": "Jalan Samratulangi wenang utara",
+#       "jarak_tempatwisatamanado": "4.7KM",
+#       "jambuka_tempatwisata": "24 Jam",
+#       "jamtutup_tempatwisata": "-",
+#       "tiket_masuktempatwisata": "-"
+# }
+
+{
+    "nama_tempatwisatamanado": "Wakeke",
+     "alamat_tempatwisatamanado": "Jalan Samratulangi wenang utara",
+      "jarak_tempatwisatamanado": "4.7KM",
+      "jambuka_tempatwisata": "jam 8 pagi",
+      "jamtutup_tempatwisata": "jam 7 malam",
+      "tiket_masuktempatwisata": "-"
+}
+###
+DELETE http://localhost:5000/tempatwisata/10
 
 ###
 DELETE http://localhost:5000/tempatwisata/2
 
-###
-PATCH http://localhost:5000/tempatwisata/7
+
+PATCH http://localhost:5000/tempatwisata/1
 Content-Type: application/json
 
 {
