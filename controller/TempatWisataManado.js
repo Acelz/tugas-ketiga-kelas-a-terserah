@@ -1,4 +1,4 @@
-import TempatWisataManado from '../Model/TempatWisataManadoModel.js';
+import TempatWisataManado from '../../Model/TempatWisataManadoModel.js';
 
 export const getTempatWisataManado = async (req, res) => {
     try {
