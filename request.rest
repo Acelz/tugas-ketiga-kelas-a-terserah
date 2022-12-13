@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+GET http://localhost:5001/tempatwisata
+=======
 GET http://localhost:5000/tempatwisata
+>>>>>>> adec430f5b4d18be4701f7f2cd41efc443f3b54d
 
 
 ###

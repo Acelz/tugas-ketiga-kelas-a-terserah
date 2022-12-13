@@ -7,16 +7,55 @@ const {
     DataTypes
 } = Sequelize;
 
-const TempatWisataManado = db.define('TempatWisataManado', {
-    nama_tempatwisatamanado: DataTypes.STRING,
-    alamat_tempatwisatamanado: DataTypes.STRING,
-    jarak_tempatwisatamanado: DataTypes.STRING,
-    jambuka_tempatwisata: DataTypes.STRING,
-    jamtutup_tempatwisata: DataTypes.STRING,
-    tiket_masuktempatwisata: DataTypes.STRING,
-}, {
+const TempatWisataManado = db.define(
+    'tempatwisata', 
+    {
+        uuid: {
+            type: DataTypes.STRING,
+            defaultValue: DataTypes.UUIDV4,
+            allowNull: false,
+            validate: {
+            notEmpty: true,
+            },
+        }, 
+        nama: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+            notEmpty: true,
+            len: [3, 100],
+            },
+        },
+        alamat: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+            notEmpty: true,
+            len: [3, 100],
+            },
+        },
+        deskripsi: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+            notEmpty: true,
+            len: [3, 255],  
+            },
+        },
+        jarak: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            validate: {
+            notEmpty: true,
+            len: [3, 100],
+            },
+        },
+        image: DataTypes.STRING,
+        url: DataTypes.STRING,
+    }, 
+    {
     freezeTableName: true
-});
+    });
 
 export default TempatWisataManado;
 
