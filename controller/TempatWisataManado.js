@@ -92,3 +92,19 @@ export const deleteTempatWisataManado = async (req, res) => {
         console.log(error.messagge);
     }
 }
+
+export const sorting = async (req, res) => {
+    try {
+        //SELECT * FROM TempatWisataManado
+        const response = await TempatWisataManado.findAll({
+            limit: 5,
+            order: [
+                ['result', 'DESC']
+            ]
+        });
+        res.status(200).json(response);
+
+    } catch (error) {
+        console.log(error.message);
+    }
+}

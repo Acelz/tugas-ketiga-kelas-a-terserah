@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 GET http://localhost:5001/tempatwisata
+=======
+GET http://localhost:5000/tempatwisata
+>>>>>>> adec430f5b4d18be4701f7f2cd41efc443f3b54d
 
 
 ###
@@ -61,6 +65,11 @@ Content-Type: application/json
 #     "jarak_tempatwisatamanado": "14KM",
 #     "jambuka_tempatwisata": "jam 9 pagi",
 #     "jamtutup_tempatwisata": "jam 10 malam",
+    
+# }
+###
+DELETE http://localhost:5000/tempatwisata/1
+=======
 #     "tiket_masuktempatwisata": "Rp30000"
 # }
 # {
@@ -114,5 +123,19 @@ DELETE http://localhost:5000/tempatwisata/2
 
 PATCH http://localhost:5000/tempatwisata/1
 Content-Type: application/json
+
+{
+    "id":7,
+     "nama_tempatwisatamanado": "Makam imam bonjol",
+    "alamat_tempatwisatamanado": "Jalan pineleng",
+    "jarak_tempatwisatamanado": "10KM",
+    "tiket_masuktempatwisata": "Rp10000"
+    
+}
+
+
+
+###
+GET http://localhost:5000/product/1
 
 
