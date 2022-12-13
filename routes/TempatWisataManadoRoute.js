@@ -5,7 +5,7 @@ import {
     createTempatWisataManado,
     updateTempatWisataManado,
     deleteTempatWisataManado,
-} from '../controller/TempatWisataManado.js';
+} from '../backend/controller/TempatWisataManado.js';
 
 const router = express.Router();
 
